@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>My Portfolio</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1" >
+        <link href="style.css" rel="stylesheet">
+        <link rel="stylesheet" 
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+        <script src="scrollreveal.js"></script>
+        <script src="typed.js"></script>
+    </head>
+    
+    <body id="top">
+        
+        <!-- Navigation bar Section -->
+        
+        <header>
+            <div class="navbar">
+                <div class="logo"><a ref="#">Ariel Zappia</a></div>
+            <ul class="links">
+               <li><a href="#about-me">About Me</a></li>
+               <li><a href="#works">Works</a></li>
+               <li><a href="#contact">Contact</a></li>
+               <li class="language_menu"><a href="language" id="language_menu">Language <i class="fa-solid fa-caret-down"></i></a>
+                 <ul>
+                   <li><a href="#" class= "es">Español</a></li>
+                   <li><a href="#" class= "en">English</a></li>
+                   <li><a href="#" class= "jp">日本語</a></li>
+                 </ul>
+               </li>
+               <li>
+                <div class="toggle-container">
+                   <label class= "dark-mode" id="toggle-mode">Light-Mode</label>
+                   <input type="checkbox" class="toggle-box" id="toggle-box">
+                   <label for="toggle-box" class="toggle-button"></label>
+                </div>
+                </li>
+            </ul>
+            <div class="toggle_btn">
+                <i class="fas fa-bars" ></i>
+                </div>
+            </div>
+
+            <div class="dropdown_menu">
+               <li><a href="#about-me">About Me</a></li>
+               <li><a href="#works">Works</a></li>
+               <li><a href="#contact">Contact</a></li>
+               <li class="drop_language"><a href="language" id="language_menu">Language <i class="fa-solid fa-caret-down"></i></a></li>
+                   <div class= "items">
+                       <ul>
+                           <li><a href="#" class= "es">Español</a></li>
+                           <li><a href="#" class= "en">English</a></li>
+                           <li><a href="#" class= "jp">日本語</a></li>
+                       </ul>
+                   </div>
+               <li>
+                <div class="toggle-container">
+                   <label class= "dark-mode" id="toggle-mode">Light-Mode</label>
+                   <input type="checkbox" class="toggle-box" id="toggle-box">
+                   <label for="toggle-box" class="toggle-button"></label>
+                </div>
+               </li>
+            </div>
+        </header>
+        <main>
+            
+            <!-- About me Section -->
+            
+            <section class="biography" id="about-me">
+                <div class="bio-content">
+                  <h3>Hello, I am</h3>
+                  <h1>Ariel Zappia</h1>
+                  <h3>And I'am a <span class="multiple-words" id="multi-words"></span></h3>
+                  <p>
+                   I'm an Argentinean self-taught programmer with five years of coding experience. My main projects have been video games and day-to-day apps. I'm proficient in Python, C, C# and JavaScript.<br>
+                   I worked as a computer technician until I decided to jump into coding and ended up as a freelancer, looking to advance my skills by developing new projects as I hope to help companies and individuals grow their businesess.
+                  </p>
+                  <a href="#works" class="biobutton">See my work</a>
+                  
+               </div>
+                <div class="bio-pic">
+                    <img src="images/biopic.png">
+                </div>
+           </section>
+            
+        <!-- Works and Projects Section. -->
+            
+           <section class="works" id="works">
+               <h2 class="heading">Latest <span class="workspan">Works</span></h2>
+               <div class="works-container">
+                  <div class="works-box">
+                      <img src="images/GrafExe.png">
+                      <div class="works-layer">
+                          <h4>GrafExe</h4>
+                          <p class="graf-desc">A Desktop app available on Windows, Linux and MacOS for graphologist.
+                          </p>
+                          <a href="https://youtu.be/ega8fFc6Mjw" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                      </div>
+                  </div>
+                  
+                  <div class="works-box">
+                      <img src="images/Foxies-playground.png"> 
+                      <div class="works-layer">
+                          <h4>Foxie's Playground</h4>
+                          <p class="fox-desc">A 2D platformer game available for Mobile and Desktop.
+                          </p>
+                          <a href="https://youtu.be/xinERFSfIYU" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                      </div>
+                  </div>
+                   
+                   <div class="works-box">
+                      <img src="images/stock-sim.png"> 
+                      <div class="works-layer">
+                          <h4>Stocks Sim</h4>
+                          <p class="stock-desc">An app that provides a safe environment to practice and learn the art of investing.
+                          </p>
+                          <a href="https://youtu.be/O1jQ_qAwpD4" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                      </div>
+                  </div>
+                   
+                  <div class="works-box">
+                      <img src="images/horizon.png"> 
+                      <div class="works-layer">
+                          <h4>Horizon</h4>
+                          <p class="hori-desc">A multi-platform infinite space runner available for mobile and desktop.
+                          </p>
+                          <a href="https://youtu.be/kJwATBgbVLY" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                      </div>
+                  </div>
+                   
+                  <div class="works-box">
+                      <img src="images/fit-app.jpg"> 
+                      <div class="works-layer">
+                          <h4>Fit App</h4>
+                          <p class="fit-desc">An app that provides a training routine and tracks the progress of the user.
+                          </p>
+                          <a href="https://youtu.be/86a0Q0fWXQg" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                      </div>
+                  </div>
+                   
+                  <div class="works-box">
+                      <img src="images/Lock-picker.png"> 
+                      <div class="works-layer">
+                          <h4>Lock-Picker</h4>
+                          <p class="lock-desc">A multi-platform logic puzzle game where the player has to guess the randomly generated numeric password.
+                          </p>
+                          <a href="https://youtu.be/ZVUQMDTfcFg" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                      </div>
+                  </div>
+                   
+               </div>
+           </section>
+            
+           <!-- Contact Me Section. -->
+            
+           <section class="contact" id="contact">
+               <h2 class="heading" id="cont-head">Contact<span> Me!</span></h2>
+               
+               <div class="media">
+                  <div>
+                      <a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a><label>My Linkedin.</label></div>
+                  <div>
+                     <a href="https://github.com/AJFZap" target="_blank"><i class="fa-brands fa-github"></i></a><label>My Github.</label>
+                  </div>
+               </div>
+               <form class="contact_form" action="https://formsubmit.co/ariel.jf.zappia@gmail.com" method="POST">
+                 <input type="hidden" name="_subject" value="Portfolio Contact.">
+                 <div class="input_group">
+                   <input type="email" name="email" id="email_form" title="" required>
+                   <label for="email_form"><i class="fa-solid fa-envelope"></i> Your Email</label>
+                 </div>
+                 <div class="input_group"> 
+                   <input type="text" name="name" id="name_form" title="" required>
+                   <label for="name_form"><i class="fa-solid fa-user"></i> Your Name</label>
+                 </div>
+                 <div class="input_group">
+                   <textarea type="text" name="textbox" id="message_form" row="16", cols="32" required></textarea>
+                   <label for="message_form"><i class="fa-solid fa-message"></i> Write your message here, Please.</label>
+                 </div>
+                   
+                 <button type="submit" class="mail-button">Send</button>
+               </form>
+               
+               <a href="#" target="_blank" class="cv-button">Download my CV</a>
+           </section>
+        </main>
+    </body>
+    
+    <!-- Footer Design. -->
+       
+        <footer class="footer">
+            <div class="footer-text">
+                <p>Copyright &copy; 2023 by Ariel Zappia | All rights reserved.</p>
+            </div>
+            <div class="go-top">
+                <a href="#top" title="Go back to the top"><i class="fa-solid fa-angles-up"></i></a>
+            </div>
+        </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="languages.js"></script>
+    <script src="scripts.js"></script>
+</html>
