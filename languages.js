@@ -109,8 +109,8 @@ $(function() {
         backDelay: 1000,
         loop: true 
         });
-        $(".bio-content").children().eq(3).text("I'm an Argentinean self-taught programmer with five years of coding experience. My main projects have been video games and day-to-day apps. I'm proficient in Python, C, C# and JavaScript.");
-        $(".bio-content").children().eq(3).append('<br>I worked as a computer technician until I decided to jump into coding and ended up as a freelancer, looking to advance my skills by developing new projects as I hope to help companies and individuals grow their businesess.');
+        $(".bio-content").children().eq(3).text("I'm an Argentinean self-taught programmer with five years of coding experience. My main projects have been video games and day-to-day apps. I'm proficient in Python, C, C#, and JavaScript.");
+        $(".bio-content").children().eq(3).append('<br>I worked as a computer technician until I decided to jump into coding and ended up as a freelancer, looking to advance my skills by developing new projects as I hope to help companies and individuals grow their businesses.');
         
         $(".bio-content").children().eq(4).text("See my work");
         
@@ -192,7 +192,7 @@ $(function() {
         loop: true 
         });
         $(".bio-content").children().eq(3).text("Soy un programador autodidacta argentino con cinco años de experiencia en programación. Mis principales proyectos han sido videojuegos y aplicaciones del día a día. Soy hábil en Python, C, C# y JavaScript.");
-        $(".bio-content").children().eq(3).append('<br>Trabajé como técnico en informática hasta que decidí cambiar a programacion y terminé como freelancer, buscando mejorar mis habilidades desarrollando nuevos proyectos con la esperanza de ayudar a empresas e individuos a hacer crecer sus negocios.');
+        $(".bio-content").children().eq(3).append('<br>Trabajé como técnico en informática hasta que decidí cambiar a programación y terminé como freelancer, buscando mejorar mis habilidades desarrollando nuevos proyectos con la esperanza de ayudar a empresas e individuos a hacer crecer sus negocios.');
         $(".bio-content").children().eq(4).text("Mira mis trabajos");
         
         // Works Section
@@ -271,8 +271,8 @@ $(function() {
         backDelay: 2000,
         loop: true 
         });
-        $(".bio-content").children().eq(3).text("私はアルゼンチン人の独学プログラマーで、5 年間のコーディング経験があります。 私の主なプロジェクトは、ビデオ ゲームと日常のアプリです。 私は Python、C、C#、および JavaScript に堪能です。");
-        $(".bio-content").children().eq(3).append('<br>私はコーディングの分野に飛び込むまでコンピューター技術者として働いていましたが、企業や個人のビジネスの成長を支援したいと考え、新しいプロジェクトを開発してスキルを向上させたいと考え、最終的にはフリーランサーになりました。');
+        $(".bio-content").children().eq(3).text("私はアルゼンチン人で、5年間のプログラミング経験があります。 私の主要なプロジェクトは、ビデオ ゲームと日常のアプリです。 私は Python、C、C#、および JavaScript を使いこなせます。");
+        $(".bio-content").children().eq(3).append('<br>私はコーディングの分野に飛び込む前はコンピューター技術者として働いていましたが、企業や個人のビジネスの成長を支援したいと考え、新しいプロジェクトを開発してスキルを向上させたいと思い、最終的にはフリーランサーになりました。');
         $(".bio-content").children().eq(4).text("私の作品を見て");
         
         // Works Section
@@ -281,7 +281,7 @@ $(function() {
         $(".heading").append('<span class="workspan"> 作品</span>');
         $(".hori-desc").text("モバイルとデスクトップで利用できるマルチプラットフォームの無限スペース ランナー。");
         $(".fox-desc").text("モバイルとデスクトップで利用できる 2D プラットフォーマー ゲーム。");
-        $(".lock-desc").text("プレーヤーがランダムに生成された数字のパスワードを推測しなければならないマルチプラットフォームのロジック パズル ゲーム。");
+        $(".lock-desc").text("プレーヤーは、ランダムに生成された数字のパスワードを推測する必要があるマルチプラットフォームのロジック パズル ゲームです。");
         $(".fit-desc").text("トレーニング ルーチンを提供し、ユーザーの進捗状況を追跡するアプリ。");
         $(".stock-desc").text("投資の芸術を練習し、学ぶための安全な環境を提供するアプリ。");
         $(".graf-desc").text("筆跡学者向けの Windows、Linux、MacOS で利用できるデスクトップ アプリ。");
