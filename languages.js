@@ -118,7 +118,7 @@ $(function() {
         
         $(".heading").text("Latest");
         $(".heading").append('<span class="workspan"> Works</span>');
-        $(".hori-desc").text("A multi-platform infinite space runner available for mobile and desktop.");
+        $(".script-desc").text("AI-powered video transcription and summarization web app.");
         $(".fox-desc").text("A 2D platformer game available for Mobile and Desktop.");
         $(".lock-desc").text("A multi-platform logic puzzle game where the player has to guess the randomly generated password.");
         $(".fit-desc").text("An app that provides a training routine and tracks the progress of the user.");
@@ -199,7 +199,7 @@ $(function() {
         
         $(".heading").text("Ultimos");
         $(".heading").append('<span class="workspan"> Trabajos</span>');
-        $(".hori-desc").text("Un runner infinito multiplataforma para dispositivos móviles y de escritorio.");
+        $(".script-desc").text("Aplicación web de transcripción y resumen de videos potenciada por IA.");
         $(".fox-desc").text("Un juego de plataformas en 2D disponible para dispositivos móviles y PC.");
         $(".lock-desc").text("Un multiplataforma de lógica en el que debe descubrirse el código numérico aleatoriamente generado.");
         $(".fit-desc").text("Una aplicación que provee al usuario de una rutina de entrenamiento que a su vez registra su progreso.");
@@ -279,7 +279,7 @@ $(function() {
         
         $(".heading").text("最新");
         $(".heading").append('<span class="workspan"> 作品</span>');
-        $(".hori-desc").text("モバイルとデスクトップで利用できるマルチプラットフォームの無限スペース ランナー。");
+        $(".script-desc").text("AIパワードビデオ転写および要約ウェブアプリ。");
         $(".fox-desc").text("モバイルとデスクトップで利用できる 2D プラットフォーマー ゲーム。");
         $(".lock-desc").text("プレーヤーは、ランダムに生成された数字のパスワードを推測する必要があるマルチプラットフォームのロジック パズル ゲームです。");
         $(".fit-desc").text("トレーニング ルーチンを提供し、ユーザーの進捗状況を追跡するアプリ。");
