@@ -477,6 +477,10 @@ form {
     max-width: 600px;  
 }
 
+textarea {
+    resize: none;
+}
+
 .input_group {
     margin-bottom: 30px;
     position: relative;
