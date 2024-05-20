@@ -426,16 +426,30 @@ span {
 
 /* Contact Me Section. */
 
+section.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    box-sizing: border-box;
+}
 
+.heading {
+    text-align: center;
+    margin-bottom: 2rem;
+}
 
 .media {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(1, 1fr);
     margin-left: 20%;
+    margin-bottom: 2rem;
+    width: 100%;
+    max-width: 600px;
 }
 
-.media a{
+.media a {
     display: inline-grid;
     justify-content: center;
     align-items: center;
@@ -465,24 +479,32 @@ span {
     text-decoration: underline;
 }
 
-form {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(1, 1fr);
+.form-container {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    margin-left: 30%;
-    margin-right: 30%;
-    width: 90%;
-    max-width: 600px;  
+    width: 100%;
+    max-width: 600px;
+    box-sizing: border-box;
+}
+
+.contact_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 1rem;
 }
 
 .input_group {
     margin-bottom: 30px;
     position: relative;
+    width: 100%;
 }
 
-.contact_form input, textarea {
+.contact_form input,
+.contact_form textarea {
     width: 100%;
     padding: 10px;
     outline: 0;
@@ -492,8 +514,7 @@ form {
     font-size: 15px;
 }
 
-textarea {
-    width: 100%;
+.contact_form textarea {
     height: 15rem;
     resize: none;
 }
@@ -501,31 +522,29 @@ textarea {
 .contact_form label {
     height: 100%;
     position: absolute;
-    left: 0;
-    top: 0;
-    padding: 10px;
+    left: 10px;
+    top: 10px;
     color: var(--mainColor);
     cursor: text;
     transition: 0.2s;
+    pointer-events: none;
 }
 
-input:focus~label,
-input:valid~label,
-textarea:focus~label,
-textarea:valid~label{
-    top: -35px;
+.contact_form input:focus ~ label,
+.contact_form input:valid ~ label,
+.contact_form textarea:focus ~ label,
+.contact_form textarea:valid ~ label {
+    top: -20px;
+    left: 0;
     font-size: 14px;
 }
 
 .contact_form button {
     padding: 2rem;
     color: var(--mainColor);
-    outline: none;
     background: transparent;
     border: 1px solid var(--mainColor);
     width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
     border-radius: 4rem;
     box-shadow: 0 0 1rem var(--mainColor);
     font-size: 1.2rem;
@@ -533,6 +552,7 @@ textarea:valid~label{
     font-weight: 600;
     transition: .5s ease;
     cursor: pointer;
+    margin-top: 1rem;
 }
 
 .contact_form button:hover {
@@ -543,8 +563,7 @@ textarea:valid~label{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 30%;
-    margin-right: 30%;
+    width: 80%;
     margin-top: 2rem;
     padding: 2rem;
     background: var(--mainColor);
@@ -554,6 +573,7 @@ textarea:valid~label{
     letter-spacing: .1rem;
     font-weight: 600;
     transition: .5s ease;
+    text-align: center;
 }
 
 .cv-button:hover {
@@ -673,6 +693,17 @@ textarea:valid~label{
     }
 }
 
+@media (max-width: 768px) {
+    .form-container {
+        width: 90%;
+    }
+
+    .contact_form button,
+    .cv-button {
+        width: 100%;
+        margin-top: 1rem;
+    }
+}
 @media (max-width: 615px) {
     .works-container {
         grid-template-columns: repeat(1, 1fr);
