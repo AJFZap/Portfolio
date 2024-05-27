@@ -103,7 +103,7 @@ $(function() {
         $(".bio-content").children().eq(2).text("And I'am a ");
         $(".bio-content").children().eq(2).append('<span class="multiple-words"></span>');
         const typed = new Typed('.multiple-words', {
-        strings: ['Software Developer.', 'Mobile Developer.' ,'Full-Stack Developer.', 'Dream Maker.'],
+        strings: ['Software Developer.', 'Full-Stack Developer.', 'Mobile Developer.', 'Dream Maker.'],
         typeSpeed: 100,
         backSpeed: 100,
         backDelay: 1000,
@@ -185,7 +185,7 @@ $(function() {
         $(".bio-content").children().eq(2).text("Y soy un ");
         $(".bio-content").children().eq(2).append('<span class="multiple-words" id="multi-words"> </span>');
         const typed = new Typed('.multiple-words', {
-        strings: ['0', 'Desarrollador de software.', 'Desarrollador móvil.', 'Desarrollador Full-Stack.', 'Hacedor de Sueños.'],
+        strings: ['0', 'Desarrollador de software.', 'Desarrollador Full-Stack.', 'Desarrollador móvil.', 'Hacedor de Sueños.'],
         typeSpeed: 100,
         backSpeed: 100,
         backDelay: 1000,
@@ -265,7 +265,7 @@ $(function() {
         $(".bio-content").children().eq(2).text("そして私は");
         $(".bio-content").children().eq(2).append('<span class="multiple-words" id="multi-words"> </span>');
         const typed = new Typed('.multiple-words', {
-        strings: ['0','ソフトウェア開発者。', 'モバイル開発者。','フルスタック開発者。', '夢を作る人。'],
+        strings: ['0','ソフトウェア開発者。', 'フルスタック開発者。', 'モバイル開発者。', '夢を作る人。'],
         typeSpeed: 100,
         backSpeed: 100,
         backDelay: 2000,

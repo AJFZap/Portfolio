@@ -66,7 +66,7 @@ ScrollReveal().reveal('.bio-content p', {origin: 'right'});
 /* Typed JS */
 
 const typed = new Typed('.multiple-words', {
-    strings: ['Software Developer.', 'Mobile Developer.' ,'Full-Stack Developer.', 'Dream Maker.'],
+    strings: ['Software Developer.', 'Full-Stack Developer.', 'Mobile Developer.', 'Dream Maker.'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
