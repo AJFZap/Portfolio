@@ -25,18 +25,18 @@ const toggle = document.querySelector('.toggle-box');
 
 toggle.onclick = function () {
     if (toggle.checked) {
-       document.body.style.setProperty('background-image', 'linear-gradient(0deg,var(--lightBackground), var(--lightBackground)), url("images/code-coding.gif")');
+       document.body.style.setProperty('background-image', 'linear-gradient(0deg,var(--lightBackground), var(--lightBackground)), url("images/code-coding.webp")');
        document.getElementsByClassName('dark-mode')[0] .innerHTML = 'Dark-Mode'
        document.getElementsByClassName('dark-mode')[1] .innerHTML = 'Dark-Mode'
         document.getElementsByClassName('toggle-box')[1].checked = true
-       document.root.style.setProperty('--opositeBacground', 'linear-gradient(0deg,var(--darkBackground), var(--darkBackground)), url("images/code-coding.gif")');
+       document.root.style.setProperty('--opositeBacground', 'linear-gradient(0deg,var(--darkBackground), var(--darkBackground)), url("images/code-coding.webp")');
     }
     else {
-        document.body.style.setProperty('background-image', 'linear-gradient(0deg,var(--darkBackground), var(--darkBackground)), url("images/code-coding.gif")');
+        document.body.style.setProperty('background-image', 'linear-gradient(0deg,var(--darkBackground), var(--darkBackground)), url("images/code-coding.webp")');
         document.getElementsByClassName('dark-mode')[0].innerHTML = 'Light-Mode'
         document.getElementsByClassName('dark-mode')[1] .innerHTML = 'Light-Mode'
         document.getElementsByClassName('toggle-box')[1].checked = false
-        document.root.style.setProperty('--opositeBacground', 'linear-gradient(0deg,var(--lightBackground), var(--lightBackground)), url("images/code-coding.gif")');
+        document.root.style.setProperty('--opositeBacground', 'linear-gradient(0deg,var(--lightBackground), var(--lightBackground)), url("images/code-coding.webp")');
     }
 }
 
