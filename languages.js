@@ -109,7 +109,7 @@ $(function() {
         backDelay: 1000,
         loop: true 
         });
-        $(".bio-content").children().eq(3).text("I'm an Argentinean self-taught programmer with five years of coding experience. My main projects have been video games and day-to-day apps. I'm proficient in Python, C, C#, and JavaScript.");
+        $(".bio-content").children().eq(3).text("I am a self-taught programmer from Argentina with five years of coding experience. My main projects include video games, web applications, and day-to-day apps. I am proficient in Python and JavaScript.");
         $(".bio-content").children().eq(3).append('<br>I worked as a computer technician until I decided to jump into coding and ended up as a freelancer, looking to advance my skills by developing new projects as I hope to help companies and individuals grow their businesses.');
         
         $(".bio-content").children().eq(4).text("See my work");
@@ -191,7 +191,7 @@ $(function() {
         backDelay: 1000,
         loop: true 
         });
-        $(".bio-content").children().eq(3).text("Soy un programador autodidacta argentino con cinco años de experiencia en programación. Mis principales proyectos han sido videojuegos y aplicaciones del día a día. Soy hábil en Python, C, C# y JavaScript.");
+        $(".bio-content").children().eq(3).text("Soy un programador autodidacta de Argentina con cinco años de experiencia en programación. Mis principales proyectos incluyen videojuegos, aplicaciones web y aplicaciones para el día a día. Soy hábil en Python y JavaScript.");
         $(".bio-content").children().eq(3).append('<br>Trabajé como técnico en informática hasta que decidí cambiar a programación y terminé como freelancer, buscando mejorar mis habilidades desarrollando nuevos proyectos con la esperanza de ayudar a empresas e individuos a hacer crecer sus negocios.');
         $(".bio-content").children().eq(4).text("Mira mis trabajos");
         
@@ -271,7 +271,7 @@ $(function() {
         backDelay: 2000,
         loop: true 
         });
-        $(".bio-content").children().eq(3).text("私はアルゼンチン人で、5年間のプログラミング経験があります。 私の主要なプロジェクトは、ビデオ ゲームと日常のアプリです。 私は Python、C、C#、および JavaScript を使いこなせます。");
+        $(".bio-content").children().eq(3).text("私はアルゼンチン出身の独学のプログラマーで、5年間のコーディング経験があります。主なプロジェクトには、ビデオゲーム、Webアプリケーション、日常のアプリケーションが含まれます。PythonとJavaScriptに精通しています。");
         $(".bio-content").children().eq(3).append('<br>私はコーディングの分野に飛び込む前はコンピューター技術者として働いていましたが、企業や個人のビジネスの成長を支援したいと考え、新しいプロジェクトを開発してスキルを向上させたいと思い、最終的にはフリーランサーになりました。');
         $(".bio-content").children().eq(4).text("私の作品を見て");
         
