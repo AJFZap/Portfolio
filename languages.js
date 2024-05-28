@@ -142,6 +142,16 @@ $(function() {
         $(".mail-button").text("Send");
         $(".cv-button").text("Download my CV");
         
+        // Change the language of the CV download.
+        var link = document.getElementById("cv-button");
+
+        window.open(
+        link.href,
+        '_blank'
+        );
+
+        link.setAttribute('href', "cv/Resume-EN.pdf");
+        
         // Footer.
         
         $(".footer-text > p").text("Copyright &copy; 2023 by Ariel Zappia | All rights reserved.");
@@ -223,6 +233,16 @@ $(function() {
         $(".mail-button").text("Enviar");
         $(".cv-button").text("Descarga mi CV");
         
+        // Change the language of the CV download.
+        var link = document.getElementById("cv-button");
+
+        window.open(
+        link.href,
+        '_blank'
+        );
+
+        link.setAttribute('href', "cv/Resume-ES.pdf");
+        
         // Footer.
         
         $(".footer-text p").text("Derechos de autor © 2023 por Ariel Zappia | Todos los derechos reservados.");
@@ -302,6 +322,16 @@ $(function() {
         $(".input_group label").eq(2).prepend('<i class="fa-solid fa-message"></i>');
         $(".mail-button").text("送信");
         $(".cv-button").text("トップに戻る");
+        
+        // Change the language of the CV download.
+        var link = document.getElementById("cv-button");
+
+        window.open(
+        link.href,
+        '_blank'
+        );
+
+        link.setAttribute('href', "cv/Resume-EN.pdf");
         
         // Footer.
         
