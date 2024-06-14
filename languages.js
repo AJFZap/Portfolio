@@ -145,10 +145,10 @@ $(function() {
         // Change the language of the CV download.
         var link = document.getElementById("cv-button");
 
-        window.open(
-        link.href,
-        '_blank'
-        );
+        // window.open(
+        // link.href,
+        // '_blank'
+        // );
 
         link.setAttribute('href', "cv/Resume-EN.pdf");
         
@@ -236,10 +236,10 @@ $(function() {
         // Change the language of the CV download.
         var link = document.getElementById("cv-button");
 
-        window.open(
-        link.href,
-        '_blank'
-        );
+        // window.open(
+        // link.href,
+        // '_blank'
+        // );
 
         link.setAttribute('href', "cv/Resume-ES.pdf");
         
@@ -326,10 +326,10 @@ $(function() {
         // Change the language of the CV download.
         var link = document.getElementById("cv-button");
 
-        window.open(
-        link.href,
-        '_blank'
-        );
+        // window.open(
+        // link.href,
+        // '_blank'
+        // );
 
         link.setAttribute('href', "cv/Resume-EN.pdf");
         
