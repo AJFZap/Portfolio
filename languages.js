@@ -121,7 +121,7 @@ $(function() {
         $(".script-desc").text("AI-powered video transcription and summarization web app.");
         $(".fox-desc").text("A 2D platformer game available for Mobile and Desktop.");
         $(".lock-desc").text("A multi-platform logic puzzle game where the player has to guess the randomly generated password.");
-        $(".fit-desc").text("An app that provides a training routine and tracks the progress of the user.");
+        $(".bg-desc").text("Easily manage your finances, view detailed reports, and stay on top of your budget.");
         $(".stock-desc").text("An app that provides a safe environment to practice and learn the art of investing.");
         $(".graf-desc").text("A Desktop app available on Windows, Linux and MacOS for graphologist.");
         
@@ -212,7 +212,7 @@ $(function() {
         $(".script-desc").text("Aplicación web de transcripción y resumen de videos potenciada por IA.");
         $(".fox-desc").text("Un juego de plataformas en 2D disponible para dispositivos móviles y PC.");
         $(".lock-desc").text("Un multiplataforma de lógica en el que debe descubrirse el código numérico aleatoriamente generado.");
-        $(".fit-desc").text("Una aplicación que provee al usuario de una rutina de entrenamiento que a su vez registra su progreso.");
+        $(".bg-desc").text("Administre fácilmente sus finanzas, vea informes detallados y manténgase al tanto de su presupuesto.");
         $(".stock-desc").text("Una aplicación que provee un ambiente seguro para practicar el arte de la inversión.");
         $(".graf-desc").text("Una aplicación de escritorio disponible en Windows, Linux y MacOS para grafólogos.");
         
@@ -302,7 +302,7 @@ $(function() {
         $(".script-desc").text("AIパワードビデオ転写および要約ウェブアプリ。");
         $(".fox-desc").text("モバイルとデスクトップで利用できる 2D プラットフォーマー ゲーム。");
         $(".lock-desc").text("プレーヤーは、ランダムに生成された数字のパスワードを推測する必要があるマルチプラットフォームのロジック パズル ゲームです。");
-        $(".fit-desc").text("トレーニング ルーチンを提供し、ユーザーの進捗状況を追跡するアプリ。");
+        $(".bg-desc").text("簡単に財務を管理し、詳細なレポートを表示し、予算を把握できます。");
         $(".stock-desc").text("投資の芸術を練習し、学ぶための安全な環境を提供するアプリ。");
         $(".graf-desc").text("筆跡学者向けの Windows、Linux、MacOS で利用できるデスクトップ アプリ。");
         
