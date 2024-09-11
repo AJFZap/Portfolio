@@ -100,7 +100,7 @@ $(function() {
         
         $(".bio-content").children().eq(0).text("Hello, I am");
         $(".bio-content").children().eq(1).text("Ariel Zappia");
-        $(".bio-content").children().eq(2).text("And I'am a ");
+        $(".bio-content").children().eq(2).text("And I'm a ");
         $(".bio-content").children().eq(2).append('<span class="multiple-words"></span>');
         const typed = new Typed('.multiple-words', {
         strings: ['Software Developer.', 'Full-Stack Developer.', 'Mobile Developer.', 'Dream Maker.'],
